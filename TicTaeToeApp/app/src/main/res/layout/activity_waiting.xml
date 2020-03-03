@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:text="Finding Opponent"
+        android:id="@+id/state"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:text="(Touching anywhere on the screen to Cancel)"
+        android:id="@+id/cancelInfo"/>
+
+</LinearLayout>
